@@ -1,0 +1,7 @@
+.card__list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 28px;
+    list-style-type: none;
+}

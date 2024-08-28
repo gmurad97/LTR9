@@ -1,0 +1,132 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/rhB3QB2dOG11LyeFXV2WtVBJFPz.jpg",
+            "title": "The Nun",
+            "description": "A priest with a haunted past and a novice on the threshold of her final vows are sent by the Vatican to investigate the death of a young nun in Romania and confront a malevolent force in the form of a demonic nun.",
+            "likes": 3500,
+            "dislikes": 230
+        },
+        {
+            "id": 2,
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/i12HsW8jXnCoy5IieQEpFLush7O.jpg",
+            "title": "Annabelle",
+            "description": "John Form has found the perfect gift for his expectant wife, Mia: a beautiful, rare vintage doll in a pure white wedding dress. But Mia's delight with Annabelle doesn't last long.",
+            "likes": 4200,
+            "dislikes": 315
+        },
+        {
+            "id": 3,
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hAUwLUNfSpeP9bMfznXKm4q4Z3Q.jpg",
+            "title": "The Conjuring",
+            "description": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
+            "likes": 5600,
+            "dislikes": 190
+        },
+        {
+            "id": 4,
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/xWQzDOslE1XrpnmflRakEEnBIBC.jpg",
+            "title": "Insidious",
+            "description": "A family looks to prevent evil spirits from trapping their comatose child in a realm called The Further.",
+            "likes": 4700,
+            "dislikes": 210
+        },
+        {
+            "id": 5,
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qtwq9E3v7O69OSLsxSw7yq0WubT.jpg",
+            "title": "Sinister",
+            "description": "Washed-up true crime writer Ellison Oswalt finds a box of super 8 home movies in his new home, revealing that the murder he's currently researching is the work of a serial killer whose career dates back to the 1960s.",
+            "likes": 3900,
+            "dislikes": 170
+        },
+        {
+            "id": 6,
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/gUsZ6BvPynVQBAxOzW830eE7PeF.jpg",
+            "title": "Hereditary",
+            "description": "A grieving family is haunted by tragic and disturbing occurrences.",
+            "likes": 5200,
+            "dislikes": 250
+        },
+        {
+            "id": 7,
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/rjM13nwgzt80xAUKXVp9mzRYyHp.jpg",
+            "title": "It",
+            "description": "In the summer of 1989, a group of bullied kids band together to destroy a shape-shifting monster, which disguises itself as a clown and preys on the children of Derry, their small Maine town.",
+            "likes": 6100,
+            "dislikes": 300
+        },
+        {
+            "id": 8,
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/1tOwKZqS5YQ7EL9QNXjhC7rKHKd.jpg",
+            "title": "The Babadook",
+            "description": "A single mother and her child fall into a deep well of paranoia when an eerie children's book titled 'Mister Babadook' manifests in their home.",
+            "likes": 4300,
+            "dislikes": 160
+        },
+        {
+            "id": 9,
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/isLlJvBBrfvCvdOzGLaNtPKMEvh.jpg",
+            "title": "The Exorcist",
+            "description": "When a 12-year-old girl is possessed by a mysterious entity, her mother seeks the help of two priests to save her.",
+            "likes": 6800,
+            "dislikes": 220
+        },
+        {
+            "id": 10,
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/1wC2orV29cl2kvaBIzcqo0BIkWS.jpg",
+            "title": "The Shining",
+            "description": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
+            "likes": 7200,
+            "dislikes": 270
+        },
+        {
+            "id": 11,
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hkchWNmGfcgow2Jivyxv83JqHCy.jpg",
+            "title": "Get Out",
+            "description": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.",
+            "likes": 5300,
+            "dislikes": 210
+        },
+        {
+            "id": 12,
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/AU7RSlfndHCkm1YTstrD991Mpg.jpg",
+            "title": "A Quiet Place",
+            "description": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing.",
+            "likes": 5900,
+            "dislikes": 195
+        },
+        {
+            "id": 13,
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/nCZDd6sJ7OdonxiDUNgncrKusQn.jpg",
+            "title": "Midsommar",
+            "description": "A couple travels to Sweden to visit a rural hometown's fabled mid-summer festival. What begins as an idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult.",
+            "likes": 4600,
+            "dislikes": 250
+        },
+        {
+            "id": 14,
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vwldpALjeYsr0kHR7UWa1PdKpvc.jpg",
+            "title": "The Ring",
+            "description": "A journalist must investigate a mysterious videotape which seems to cause the death of anyone in a week of viewing it.",
+            "likes": 4800,
+            "dislikes": 230
+        },
+        {
+            "id": 15,
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/4PpnPcmAGqpZWpFX5imX0WmWTfZ.jpg",
+            "title": "Paranormal Activity",
+            "description": "After moving into a suburban home, a couple becomes increasingly disturbed by a nightly demonic presence.",
+            "likes": 5400,
+            "dislikes": 220
+        },
+        {
+            "id": 16,
+            "thumbnail": "https://picsum.photos/200/300",
+            "title": "The Texas Chain Saw Massacre",
+            "description": "Two siblings and three of their friends en route to visit their grandfather's grave in Texas end up falling victim to a family of cannibalistic psychopaths.",
+            "likes": 4900,
+            "dislikes": 180
+        }
+    ]
+}

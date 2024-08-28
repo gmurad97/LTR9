@@ -1,0 +1,106 @@
+.card__item {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 4px 4px 16px #000000;
+    overflow: hidden;
+}
+
+.card__header {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.card__header-thumbnail {
+    width: 100%;
+    height: 448px;
+}
+
+.card__header-thumbnail-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.card__control {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px;
+
+}
+
+.card__control>span:not(:last-of-type) {
+    margin-right: 16px;
+}
+
+.card__like>i[class^="fi"],
+.card__dislike>i[class^="fi"],
+.card__favorite>i[class^="fi"] {
+    display: flex;
+    font-size: 20px;
+    transition: color 128ms linear;
+    color: #0C4383;
+}
+
+.card__like,
+.card__dislike,
+.card__favorite {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00FF9F;
+    border-radius: 50%;
+    transition: background-color 128ms linear;
+    cursor: pointer;
+}
+
+.card__like:hover,
+.card__dislike:hover,
+.card__favorite:hover {
+    background-color: #0C4383;
+}
+
+.card__like:hover>i[class^="fi"],
+.card__dislike:hover>i[class^="fi"],
+.card__favorite:hover>i[class^="fi"] {
+    color: #00FF9F;
+}
+
+.card__main {
+    width: 100%;
+    height: 100%;
+    background-color: #00FF9F;
+    padding: 16px;
+}
+
+.card__main-title {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 900;
+    color: #0C4383;
+    margin-bottom: 8px;
+}
+
+.card__main-description {
+    display: -webkit-box;
+    line-clamp: 3;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    text-align: center;
+    line-height: 24px;
+    color: #000000;
+}

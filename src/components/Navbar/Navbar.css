@@ -1,0 +1,153 @@
+.navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00FF9F;
+    padding: 8px 96px;
+}
+
+.logo {
+    width: 56px;
+    height: auto;
+    animation: pulseShadowLogo 2048ms linear infinite alternate;
+}
+
+.logo__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center center;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+}
+
+.menu__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.menu__item:not(:last-of-type) {
+    margin-right: 16px;
+}
+
+.menu__name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    border-bottom: 4px solid #0C4383;
+    border-radius: 32px;
+    padding: 0px 12px 6px 12px;
+}
+
+.menu__value {
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 6px;
+}
+
+.basket {
+    position: relative;
+}
+
+.basket__value {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0C4383;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #00FF9F;
+}
+
+.basket>i[class^="fi"] {
+    display: flex;
+    font-size: 20px;
+}
+
+.basket:hover>.basket__dropdown {
+    display: flex;
+}
+
+.basket__dropdown {
+    position: absolute;
+    top: 0px;
+    left: -222px;
+    width: auto;
+    height: 400px;
+    display: none;
+    background-color: rgba(34, 160, 182, 0.32);
+    backdrop-filter: blur(16px);
+    border: 2px solid #22A0B6;
+    border-radius: 8px;
+    box-shadow: 1px 1px s;
+    padding: 16px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index: 1024;
+}
+
+.basket__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
+}
+
+.basket__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.basket__item:not(:last-of-type) {
+    margin-bottom: 16px;
+}
+
+.basket__item-thumbnail {
+    min-width: 64px;
+    min-height: 64px;
+    width: 64px;
+    height: 64px;
+
+    border-radius: 50%;
+    margin-right: 16px;
+    overflow: hidden;
+}
+
+.basket__item-thumbnail-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+@keyframes pulseShadowLogo {
+    from {
+        filter: drop-shadow(0px 0px 0px #0C4383);
+    }
+
+    to {
+        filter: drop-shadow(0px 0px 3px #0C4383);
+    }
+}
