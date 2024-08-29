@@ -34,7 +34,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="basket">
-                <span className="basket__value">{favorites.length}</span>
+                {favorites.length > 0 && (<span className="basket__value">{favorites.length}</span>)}
                 <i className="fi fi-sr-shopping-basket"></i>
                 <div className="basket__dropdown">
                     {Array.isArray(favorites) && favorites.length > 0 ? (
