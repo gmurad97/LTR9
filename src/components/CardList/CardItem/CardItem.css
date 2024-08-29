@@ -14,13 +14,13 @@
 
 .card__header-thumbnail {
     width: 100%;
-    height: 448px;
+    height: 333px;
 }
 
 .card__header-thumbnail-img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
     object-position: center center;
 }
 
@@ -28,12 +28,11 @@
     position: absolute;
     top: 0px;
     right: 0px;
-
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding: 12px;
+    padding: 8px;
 
 }
 

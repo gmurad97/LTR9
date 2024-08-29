@@ -1,3 +1,4 @@
+import "./App.css";
 import Navbar from "../components/Navbar/Navbar.jsx";
 import Section from "../components/common/Section/Section.jsx";
 import CardList from "../components/CardList/CardList.jsx";

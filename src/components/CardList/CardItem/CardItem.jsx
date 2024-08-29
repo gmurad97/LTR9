@@ -1,6 +1,6 @@
-import "./CardItem.css";
 import { useDispatch } from "react-redux";
-import { toggleLike, toggleDislike, toggleFavorite } from "../../../store/slices/moviesSlice";
+import { toggleLike, toggleDislike, toggleFavorite } from "../../../store/slices/moviesSlice.js";
+import "./CardItem.css";
 
 const CardItem = ({ data }) => {
     const dispatch = useDispatch();
@@ -24,23 +24,26 @@ const CardItem = ({ data }) => {
                     <img className="card__header-thumbnail-img" src={data.thumbnail} alt="Thumbnail" />
                 </figure>
                 <div className="card__control">
-                    <span 
-                        className={`card__like ${data.isLiked ? 'active' : ''}`} 
-                        onClick={handleLike}
-                    >
-                        <i className="fi fi-rr-social-network"></i>
+                    <span className="card__like" onClick={handleLike}>
+                        {data.isLiked ? (
+                            <i className="fi fi-sr-thumbs-up"></i>
+                        ) : (
+                            <i className="fi fi-rr-social-network"></i>
+                        )}
                     </span>
-                    <span 
-                        className={`card__dislike ${data.isDisliked ? 'active' : ''}`} 
-                        onClick={handleDislike}
-                    >
-                        <i className="fi fi-rr-hand"></i>
+                    <span className="card__dislike" onClick={handleDislike}>
+                        {data.isDisliked ? (
+                            <i className="fi fi-sr-thumbs-down"></i>
+                        ) : (
+                            <i className="fi fi-rr-hand"></i>
+                        )}
                     </span>
-                    <span 
-                        className={`card__favorite ${data.isFavorite ? 'active' : ''}`} 
-                        onClick={handleFavorite}
-                    >
-                        <i className="fi fi-rr-star"></i>
+                    <span className="card__favorite" onClick={handleFavorite}>
+                        {data.isFavorite ? (
+                            <i className="fi fi-sr-star"></i>
+                        ) : (
+                            <i className="fi fi-rr-star"></i>
+                        )}
                     </span>
                 </div>
             </header>
